@@ -189,7 +189,7 @@ de_DE:
         no_users: Kein Teilnehmer gefunden
         role: Rolle
         uid: Teilnehmer ID
-        username: Teilnehmername
+        username: Uni-ID
       title: Teilnehmer verwalten
   add_to_google_calendar: "Zum Google Kalender hinzufügen"
   bigbluebutton: BigBlueButton
@@ -300,7 +300,7 @@ de_DE:
   language_default: Voreinstellung (Browsersprache)
   ldap_error: "Verbindung zum LDAP Server konnte nicht hergestellt werden. Bitte überprüfen Sie die LDAP Konfiguration und stellen Sie sicher, dass der LDAP-Server läuft."
   login: Einloggen
-  login_title: In Ihr Konto einloggen
+  login_title: Anmeldung mit der Uni-ID
   mailer:
     user:
       approve:
