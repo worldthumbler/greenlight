@@ -7,5 +7,5 @@ if Rails.configuration.loadbalanced_configuration
     Rails.application.config.session_store :cookie_store, key: '_greenlight-2_3_session',
         domain: ENV['GREENLIGHT_SESSION_DOMAIN'] || 'blindside-dev.com'
 else
-    Rails.application.config.session_store :cookie_store, key: '_greenlight-2_3_session'
+    Rails.application.config.session_store :cookie_store, key: '_greenlight-2_3_session', expire_after: 2.hours
 end
